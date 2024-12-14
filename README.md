@@ -2,11 +2,11 @@
 
 A simple communication program using UNIX signals in C.
 
-## Description 📌
+## 📌 Description 
 
 minitalk is a project from the 42 school curriculum that implements a basic client-server communication system using UNIX signals. The server listens for incoming messages from clients and responds accordingly, allowing for inter-process communication.
 
-## Features ✨
+## ✨ Features 
 
 - Client-server architecture using UNIX signals
 - Supports sending messages from the client to the server
