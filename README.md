@@ -1,17 +1,15 @@
 ![image](https://github.com/user-attachments/assets/3e61b34e-4689-4078-b3e9-cea0e1e97995)
 
-## 🖥️ Description
-The purpose of this project is to code a small data exchange program using UNIX signals. It is an introductory project for the bigger UNIX projects that will appear later on in the cursus. <br/>
+A simple communication program using UNIX signals in C.
 
-## ✅ Project Rules
-Create a communication program in the form of a client and a server. <br/>
+## Description
 
-• The server must be started first. After its launch, it has to print its PID. <br/>
-• The client takes two parameters: <br/>
-• The server PID. <br/>
-• The string to send. <br/>
-• The client must send the string passed as a parameter to the server. Once the string has been received, the server must print it. <br/>
-• The server has to display the string pretty quickly. Quickly means that if you think it takes too long, then it is probably too long. 1 second for displaying 100 characters is way too much! <br/>
-• Your server should be able to receive strings from several clients in a row without needing to restart. <br/>
-• The communication between your client and your server has to be done only using UNIX signals. <br/>
-• You can only use these two signals: SIGUSR1 and SIGUSR2. <br/>
+minitalk is a project from the 42 school curriculum that implements a basic client-server communication system using UNIX signals. The server listens for incoming messages from clients and responds accordingly, allowing for inter-process communication.
+
+## Features
+
+- Client-server architecture using UNIX signals
+- Supports sending messages from the client to the server
+- Handles message acknowledgments
+- Lightweight and efficient implementation
+
